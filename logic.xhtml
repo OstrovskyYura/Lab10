@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<f:view>
+    <h:head>
+        <title>Calculate</title>
+    </h:head>
+    <h:body>
+        <h:form><h:panelGrid columns="2">
+            <h:outputText value="Start:"/>
+            <h:outputText value="#{logicBean.logic.start}"/>
+            <h:outputText value="End:"/>
+            <h:outputText value="#{logicBean.logic.end}"/>
+            <h:outputText value="Step:"/>
+            <h:outputText value="#{logicBean.logic.step}"/>
+            <h:outputText value="A:"/>
+            <h:outputText value="#{logicBean.logic.a}"/>
+            <h:outputText value="B:"/>
+            <h:outputText value="#{logicBean.logic.b}"/>
+            <h:outputText value="C:"/>
+            <h:outputText value="#{logicBean.logic.c}"/>
+            <h:outputText value="Maximum X:"/>
+            <h:outputText value="#{logicBean.maximumX}"/>
+            <h:outputText value="Minimum X:"/>
+            <h:outputText value="#{logicBean.minimumX}"/>
+            <h:outputText value="Maximum Y:"/>
+            <h:outputText value="#{logicBean.maximumY}"/>
+            <h:outputText value="Minimum Y:"/>
+            <h:outputText value="#{logicBean.minimumY}"/>
+            <h:outputText value="Steps:"/>
+            <h:outputText value="#{logicBean.steps}"/>
+            <h:outputText value="Sum:"/>
+            <h:outputText value="#{logicBean.suma}"/>
+            <h:outputText value="Arithmetic mean:"/>
+            <h:outputText value="#{logicBean.arithmetical}"/>
+        </h:panelGrid></h:form>
+    </h:body>
+</f:view>
+</html>
